@@ -253,7 +253,7 @@ def hauptmenue():
     text_rect_highscore = knopf_highscore_text.get_rect(center=(knopf_highscore_x + knopf_highscore_breite // 2, knopf_highscore_y + knopf_highscore_hoehe // 2))
 
     # Hintergrundmusik
-    pygame.mixer.music.load('sounds/main.mid')
+    pygame.mixer.music.load('sounds/main.mp3')
     pygame.mixer.music.play(-1, 0.0)
 
     # Loop fürs Hauptmenü
